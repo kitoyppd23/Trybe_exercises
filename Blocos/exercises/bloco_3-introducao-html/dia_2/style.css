@@ -1,0 +1,47 @@
+<style>
+    
+        h1{
+            font-family: sans-serif;
+            font-size: 65px;
+            color:orange
+            
+        }
+        
+        h2 {
+           color:brown 
+        }
+    
+        body  {
+            background-color:lightgoldenrodyellow;
+            font-size: 16px;
+        }
+
+        #Renan {
+            background-color: wheat;
+        }
+
+        ul {
+            background-color: palegoldenrod;
+        }
+
+        .altrn {
+            background-color: papayawhip;
+        }
+
+        p {
+            font-weight: 600;
+            font-size: 3em;
+            
+        }
+
+        #list1 {
+            background-color: sienna;
+        }
+        
+        #list2 {
+            background-color: slategrey;
+        }
+        #list3 {
+            background-color: tan;
+        }
+</style>
