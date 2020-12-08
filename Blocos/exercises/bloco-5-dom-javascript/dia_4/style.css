@@ -1,0 +1,7 @@
+.preferences {
+    display: block;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border: 1px solid green;
+}
