@@ -42,3 +42,22 @@ function changeTextBack() {
 
 textoCor.addEventListener('click', changeTextColor);
 textoBack.addEventListener('click', changeTextBack);
+
+//Tamanho da fonte
+
+    let getButtonFont = document.querySelector('#fontSizeBig');
+    let getButtonBack = document.querySelector('#fontSizeBack')
+    acessP.style.fontSize = localStorage.getItem('TextChangeSize');
+
+function changeSizeText() {
+    acessP.style.fontSize = '25px';
+    localStorage.setItem('TextChangeSize', acessP.style.fontSize);
+}
+
+function changeSizeBack() {
+    acessP.style.fontSize = '16px';
+    localStorage.setItem('TextChangeSize', acessP.style.fontSize);
+}
+
+getButtonFont.addEventListener('click', changeSizeText);
+getButtonBack.addEventListener('click', changeSizeBack);
