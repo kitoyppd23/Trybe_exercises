@@ -33,16 +33,16 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [x] 4-1: _JavaScript - Primeiros passos_
 - [x] 4-2: _JavaScript - Array e loop For_
 - [x] 4-3: _JavaScript - Objetos e funções_
-- [ ] 4-4: _JavaScript - DOM e seletores_
-- [ ] 4-5: _JavaScript - Trabalhando com elementos_
-- [ ] 4-6: _JavaScript - Eventos_
-- [ ] 4-7: _JavaScript - Web Storage_
+- [x] 4-4: _JavaScript - DOM e seletores_
+- [x] 4-5: _JavaScript - Trabalhando com elementos_
+- [x] 4-6: _JavaScript - Eventos_
+- [x] 4-7: _JavaScript - Web Storage_
 
 ##### Bloco 5: Introdução - JavaScript - Projetos
 
-- [ ] 5-1: _[Projeto - Meme Generator]()_
-- [ ] 5-2: _[Projeto - Arte com Pixels]()_
-- [ ] 5-3: _[Projeto - Lista de tarefas]()_
+- [x] 5-1: _[Projeto - Meme Generator]()_
+- [x] 5-2: _[Projeto - Arte com Pixels]()_
+- [x] 5-3: _[Projeto - Lista de tarefas]()_
 - [ ] 5-4: _[Projeto - Adivinhe a Cor]()_
 - [ ] 5-5: _[Projeto - Carta Misteriosa]()_
 
@@ -55,8 +55,7 @@ O programa conta com mais de 1.500 horas de aulas presenciais e online e aborda 
 - [ ] 6-3: _CSS Flexbox - Part 1_
 - [ ] 6-4: _CSS Flexbox - Part 2_
 - [ ] 6-5: _CSS Responsivo - Mobile First_
-- [ ] 6-6: _[Projeto - Página inicial do Facebook]()_
-
+- [ ] 6-6: _[Projeto - Página inicial do Faceboo
 ##### Bloco 7: JavaScript ES6 & Testes Unitários
 
 - [ ] 7-1: _JavaScript ES6 - let, const, arrow functions e template literals_
