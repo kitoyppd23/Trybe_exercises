@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <form action="" method="GET">
+    <fieldset>
+      <label for="name-field">Nome Completo:</label>
+      <input maxlength="40" id="name-field" name="full-name" required class="input">
+      <br>
+      <br>
+      <label for="email-field">Email:</label>
+      <input maxlength="50" id="email-field" name="email" required class="input">
+      <br>
+      <br>
+      <label for="cpf-field">CPF:</label>
+      <input maxlength="11" id="cpf-field" name="cpf" required class="input">
+      <br>
+      <br>
+      <label for="addres-field">Endereço:</label>
+      <input maxlength="200" id="addres-field" name="addres" required class="input">
+      <br>
+      <br>
+      <label for="city-field">Cidade:</label>
+      <input maxlength="28" id="city-field" name="city" value="city" required class="input">
+      <br>
+      <br>
+      <div class="line-content">
+        <label for="state">Estado</label>
+        <select name="state" id="state-field" required class="input">
+
+        </select>
+        <br>
+        <br>
+        <label for="house">Casa</label>
+        <input type="radio" name="local" value="house" id="house" class="input">
+        <label for="apartamento">Apartamento</label>
+        <input type="radio" name="local" value="apartamento" id="apartamento" class="input">
+      </div>
+
+    </fieldset>
+    <br>
+    <fieldset>
+      <legend>Experiências</legend>
+      <label for="lest-job">Resumo:</label>
+      <textarea maxlength="1000"  nome="lest-job"  id="lest-job" cols='20' rows='20' placeholder="Escreva um resumo de até 1000 caracteres "required class="input"></textarea>
+     </fieldset>
+      <label for="input-role">Cargo:</label>
+      <input type="text" maxlength="40" placeholder="Digite o seu último cargo" name="last-role" required id="input-role" class="input">
+    <br>
+      <label for="role-description">Descrição do cargo:</label>
+       <input type="text" maxlength="500" placeholder="Descreva sobre o cargo" name="role-description" required id="role-description" class="input">
+    <br>
+      <label for="start-date">Data de início:</label>
+      <input type="date" name="date" required id="start-date" class="input">
+      <br>
+      <button type="submit" id="click-button">Enviar</button>
+      <button id="clear-button">Limpar</button>
+
+  </form>
+  <script src="script.js"></script>
+</body>
+</html>
